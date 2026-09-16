@@ -76,7 +76,15 @@ The model predicts whether the text is positive or negative, along with a confid
 
 Make sure you have Python installed and the Hugging Face Transformers library available in your environment.
 
-If you're using the project environment included here, the dependencies are already set up.
+Install the dependencies from `requirements.txt` before running the script.
+
+To create a local virtual environment:
+
+```bash
+python -m venv hf_env
+source hf_env/bin/activate
+pip install -r requirements.txt
+```
 
 ## Run the script
 
